@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+:root {
+  --blue: #0e0620;
+  --white: #fff;
+  --green: #2ccf6d;
+}
+html,
+body {
+  height: 70%;
+  font-family: Arial, Helvetica, sans-serif
+  
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:"Nunito Sans";
+  color: var(--white);
+  font-size: 1em;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(13,15,82,1) 74%, rgba(0,212,255,1) 93%);
+}
+
+h1{
+    font-size: 150px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    text-align:center;
+    font-size: 20px;
+}
+
+button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
